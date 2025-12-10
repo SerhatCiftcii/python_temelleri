@@ -53,7 +53,7 @@ print(str(a)+str(b))  #1010
 # b=20
 # print(a+b)  #hata verir çunku str ile int toplanamaz
 
-a=20
-b=30
-print(str(a)+(b))
+# a=20
+# b=30
+# print(str(a)+(b))
 
