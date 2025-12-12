@@ -13,5 +13,9 @@ sonuc=msq.startswith("P") #P ile mi başlıyor
 sonuc="-".join(msq) #her karakterin arasına - ekler
 sonuc=msq.index("P") #kaçıncı indexten başladığını verir
 sonuc=msq.replace(' ',"") #boşlukları siler
-sonuc=msq.count()
-print(sonuc)
+sonuc=len(msq) #karakter sayısını verir
+sonuc=msq.isdigit() #sadece sayı mı diye bakar
+
+deger='Contents'.center(50,"*") #metni ortalar ve boşluklara * ekler
+sonuc=msq.isalpha() #sadece harf mi diye bakar boşluk varsa almaz 
+print(deger)
