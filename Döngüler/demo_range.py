@@ -8,7 +8,7 @@
 
 #2 girilen bir sayının asal olup olmadığını kontrol ediniz
 
-print("girdiğiniz sayı asal mı değilmi kontrol edelim")
+"""print("girdiğiniz sayı asal mı değilmi kontrol edelim")
 sayi=int(input("bir sayı giriniz: "))
 
 asalMi=True
@@ -23,4 +23,4 @@ for i in range(2,sayi):
 if asalMi:
     print("sayi asaldir")
 else:
-    print("asal değildir")
+    print("asal değildir")"""
