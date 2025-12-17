@@ -21,11 +21,11 @@ Bir class’ın içinde tanımlanmış fonksiyondur
 O class’tan üretilen nesneyle çağrılır
 
 Örnek:
-class Hesap:
-    def topla(self, a, b):
+class Hesap:   # 👈 BU CLASS
+    def topla(self, a, b): # 👈 BU METHOD (class içindeki function) def ise functıon keywordu
         return a + b
 
-h = Hesap()
+h = Hesap() 
 print(h.topla(3, 5))  # 8
 
 🧠 En kısa fark
