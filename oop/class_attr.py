@@ -17,7 +17,7 @@ class User:
 print(User.active_users) #0 dı
 userA=User("ahmet ","yılmaz",33)
 userB=User("sERHAT ","CDC",35)
-
+print(userA.full_name)
 print(User.active_users) # 2 tane instance tanımalnınca 2 oldu 
 
 print(userA.logout())
